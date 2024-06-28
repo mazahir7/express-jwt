@@ -1,7 +1,5 @@
 const User = require("./../models/userModel");
 
-const bcrypt = require("bcryptjs");
-const cookie = require("cookie-session");
 const jwt = require("jsonwebtoken");
 
 exports.userSignup = async (req, res) => {
